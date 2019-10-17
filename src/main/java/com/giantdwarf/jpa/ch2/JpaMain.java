@@ -10,10 +10,8 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 import java.util.List;
 
-@SpringBootApplication
 public class JpaMain {
     public static void main(String[] args) {
-        SpringApplication.run(JpaApplication.class, args);
 
         //엔티티 매니저 팩토리 생성
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpa");
