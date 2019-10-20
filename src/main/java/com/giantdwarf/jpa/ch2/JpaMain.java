@@ -1,9 +1,5 @@
 package com.giantdwarf.jpa.ch2;
 
-import com.giantdwarf.jpa.JpaApplication;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
@@ -14,7 +10,7 @@ public class JpaMain {
     public static void main(String[] args) {
 
         //엔티티 매니저 팩토리 생성
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpa");
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpabook");
 
         //엔티티 매니저 생성
         EntityManager em = emf.createEntityManager();

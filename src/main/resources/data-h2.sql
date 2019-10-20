@@ -1,0 +1,1 @@
+insert into MEMBER(age,NAME,ID) values(23,"yang","rhfpdk12");
